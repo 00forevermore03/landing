@@ -1,18 +1,73 @@
 body {
     display: flex;
     flex-direction: column;
-}
-
-.section-01 {
-    background-color: grey;
+    align-items: center;
+    max-width: auto;
+    margin: 0;
 }
 
 header {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.Logo-Left {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   color: white;
+}
+
+.Links-Right {
+display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 1em;
+   list-style-type: none;
+   
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.section-01 {
+    background-color: rgb(23, 51, 92);
+    padding: 5px 90px 90px 90px;
+}
+
+
+
+.image-desc {
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 0;
+    margin-top: 50px;
+   
 }
 
 img {
     width: 300px;
     height: 180px;
+}
+
+.section-02 {
+    background-color: rgb(241, 245, 252);
+    padding: 90px;
+}
+
+.section-03 {
+    background-color: rgb(168, 189, 221);
+    padding: 90px;
+}
+
+.section-04 {
+    background-color: rgb(241, 245, 252);
+    padding: 90px;
+}
+
+.footer {
+    background-color: rgb(23, 51, 92);
 }
