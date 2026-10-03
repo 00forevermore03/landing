@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    width: auto;
+    max-width: auto;
     margin: 0;
 }
 
@@ -42,6 +42,8 @@ a {
     text-decoration: none;
 }
 
+
+
 .section-01 {
     background-color: #1f2937;
     padding: 5px 90px 90px 90px;
@@ -54,6 +56,8 @@ a {
     flex-flow: row wrap;
     flex-grow: 0;
     margin-top: 50px;
+    justify-content: center;
+    
    
 }
 
@@ -62,24 +66,124 @@ img {
     height: 180px;
 }
 
+
+.h3-awesome {
+    color: white;
+    font-size: 30px;
+
+}
+
+.h3-subtext {
+    color: white;
+    font-size: small;
+    flex-shrink: 1;
+    flex-flow: row wrap;
+}
+
 .section-02 {
     background-color: rgb(241, 245, 252);
     padding: 90px;
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+    flex-direction: column;
+    margin-top: 0;
+
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.row-boxes {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
+
+.invisalign {
+    display: flex;
+    max-width: 150px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-color: rgb(0, 162, 255);
+    border-radius: 15%;
+    flex-shrink: 0;
+    margin-bottom: 6px;
+}
+
+.box-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    max-width: 100px;
 }
 
 .section-03 {
     background-color: rgb(168, 189, 221);
     padding: 90px;
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
     
 }
 
+.quote {
+    font-style: italic;
+max-width: 470px;
+font-size: 20px;
+
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 15px;
+    font-weight: bold;
+}
 .section-04 {
     background-color: rgb(241, 245, 252);
     padding: 90px;
+    
    
 }
 
+.blue-container {
+    width: 400px;
+    height: 20px;
+    border-style: solid;
+    background: rgb(0, 162, 255);
+    border-color: rgb(0, 162, 255);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.cont-text {
+    flex-direction: column;
+}
+
+
+
+
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1f2937;
     color: white;
     padding: 30px;
