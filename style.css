@@ -1,12 +1,17 @@
+
 body {
+    font-family: 'robotoregular';
+    font-style: normal;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     min-height: 100vh;
     max-width: auto;
     margin: 0;
 }
+
+
 
 /* roboto-regular - latin */
 @font-face {
@@ -34,11 +39,7 @@ body {
     font-style: normal; 
 }
 
-body {
-    font-family: 'robotoregular';
-    font-style: normal;
 
-}
 
 header {
 
@@ -70,12 +71,17 @@ a {
     text-decoration: none;
 }
 
-
+.section-02, .section-03, .section-04 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .section-01 {
     background-color: #1f2937;
     padding: 5px 90px 90px 90px;
-    
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -85,7 +91,8 @@ a {
     flex-flow: row wrap;
     flex-grow: 0;
     margin-top: 50px;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
     align-items: center;
 
    
